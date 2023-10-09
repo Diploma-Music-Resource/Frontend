@@ -1,0 +1,16 @@
+.changeMode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 32px;
+    transition: color .2s;
+}
+
+.changeMode:hover {
+    color: rgba(48, 197, 255, 1);
+}

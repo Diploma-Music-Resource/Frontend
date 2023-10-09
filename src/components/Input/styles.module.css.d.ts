@@ -1,9 +1,8 @@
 declare const styles: {
-  authScreen;
-  authBlock;
+  inputBlock;
+  input;
   dark;
-  signBody;
-  doubleInput
+  double;
 };
 
 export default styles;
