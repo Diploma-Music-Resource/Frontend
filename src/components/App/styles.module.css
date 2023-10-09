@@ -1,13 +1,13 @@
-.screen{
-    width: 100%;
-    min-height: 100vh;
-    height: fit-content;
-    background-color: white;
-    transition: .4s;
-    overflow-y: auto;
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: white;
+  transition: 0.4s;
+  overflow-y: auto;
 }
 
 .screen.dark {
-    background-color: #050505;
-    color: #1f242d;
+  background-color: #2d2d2d;
+  color: #1f242d;
 }

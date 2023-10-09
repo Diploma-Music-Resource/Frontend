@@ -1,11 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import AuthPage from "../../screens/AuthPage";
 import styles from "./styles.module.css";
 import clsx from "clsx";
 import { createContext, useContext } from "react";
 import ScreenModeStore from "../../store/screenMode";
 import { observer } from "mobx-react-lite";
-import SignInPage from "../../screens/SignInPage";
+import HomePage from "../../screens/HomePage";
 
 export const StoreScreenMode = createContext(new ScreenModeStore());
 
@@ -15,8 +14,7 @@ const App = observer(() => {
   return (
     <div className={clsx(styles.screen, screenMode.dark && styles.dark)}>
       <Routes>
-        <Route path="/signin" element={<SignInPage />} />
-        <Route path="/" element={<AuthPage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </div>
   );
