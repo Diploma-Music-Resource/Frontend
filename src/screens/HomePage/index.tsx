@@ -8,6 +8,7 @@ const HomePage = () => {
         <div className={styles.screen}>
             <Header/>
             <FilterLine/>
+            <div className="w-full h-full"></div>
         </div>
      );
 }
