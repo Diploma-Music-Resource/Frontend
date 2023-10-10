@@ -1,7 +1,5 @@
 declare const styles: {
-  filterLine;
-  dark
-  filterLineFlex
+  buttonFilterLine
 };
 
 export default styles;

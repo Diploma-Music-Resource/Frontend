@@ -1,0 +1,23 @@
+.buttonFilterLine {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  color: gray;
+  font-size: 28px;
+  transition: color .2s;
+}
+ 
+.buttonFilterLine > span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buttonFilterLine:hover {
+  color: rgba(48, 197, 255, 1);
+}
