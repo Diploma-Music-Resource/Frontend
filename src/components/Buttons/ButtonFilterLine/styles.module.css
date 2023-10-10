@@ -7,10 +7,15 @@
   justify-content: center;
   align-items: center;
   width: 64px;
-  height: 64px;
+  height: 80px;
   color: gray;
   font-size: 28px;
   transition: color .2s;
+}
+
+.buttonFilterLine.selected {
+  color: rgba(48, 197, 255, 1);
+  border-bottom: 2px solid rgba(48, 197, 255, 1);
 }
  
 .buttonFilterLine > span {

@@ -1,5 +1,6 @@
 declare const styles: {
-  buttonFilterLine
+  buttonFilterLine;
+  selected;
 };
 
 export default styles;

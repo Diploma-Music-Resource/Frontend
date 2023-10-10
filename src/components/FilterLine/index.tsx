@@ -15,7 +15,7 @@ const FilterLine = () => {
   return (
     <div className={clsx(styles.filterLine, screenState.dark && styles.dark)}>
       <div className={styles.filterLineFlex}>
-        <ButtonFilterLine icon={GiBalaclava} text="Drill" />
+        <ButtonFilterLine icon={GiBalaclava} text="Drill"/>
         <ButtonFilterLine icon={TbMichelinBibGourmand} text="Phonk" />
         <ButtonFilterLine icon={TfiMicrophoneAlt} text="Hip-hop" />
         <ButtonFilterLine icon={GiSaxophone} text="Jazz" />
@@ -24,7 +24,7 @@ const FilterLine = () => {
         <ButtonFilterLine icon={GiGrandPiano} text="Classical" />
         <ButtonFilterLine icon={LiaGuitarSolid} text="Chanson" />
         <ButtonFilterLine icon={GiSoundWaves} text="EDM" />
-        <ButtonFilterLine icon={GiWolfTrap} text="Trap" />
+        <ButtonFilterLine icon={GiWolfTrap} text="Trap" selected/>
         <ButtonFilterLine icon={BsSpeaker} text="Club" />
       </div>
     </div>
